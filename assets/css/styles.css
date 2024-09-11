@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+}
+
+main{
+    border: 3px solid black;
+    display: flex;
+}
+
+.headerInfo{ 
+    text-align: center;
+}
+
+.foto{
+    width: 30%;
+    text-align: center;
+    
+}
+
+.myFoto{
+    width: 70%;
+    height: auto;
+    margin: 10%;
+}
+
+
+.info{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 3px solid rgb(152, 97, 97);
+}
+
+.fio{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.myInfo, .kursInfo{
+    width: 50%;
+}
